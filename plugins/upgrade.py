@@ -21,7 +21,7 @@ async def upgrade(bot,update):
 	Price Rs 206  ind /🌎 2.5$  per Month
 	
 	
-	Pay Using Upi I'd ``````
+	Pay Using Upi I'd ```kiranrajpersonalac@okaxis```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin @Filter5_bot"""
@@ -51,7 +51,7 @@ async def upgradecm(bot,message):
 	Price Rs 206  ind /🌎 2.5$  per Month
 	
 	
-	Pay Using Upi I'd ``````
+	Pay Using Upi I'd ```kiranrajpersonalac@okaxis```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin @Filter5_bot"""
