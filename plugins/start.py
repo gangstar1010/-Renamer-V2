@@ -53,7 +53,7 @@ async def start(client, message):
                                       [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/SH_OTT")],
                                       [InlineKeyboardButton("Support Channel", url='https://t.me/SH_OTT'),
                                       InlineKeyboardButton("Movie Channel", url='https://t.me/SH_Telugu_All_Movies')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/1o9bdpwd')]
                                       ]))
         return
     if id:
@@ -66,12 +66,12 @@ async def start(client, message):
                                              [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/SH_OTT")],
                                               [InlineKeyboardButton("Support Channel", url='https://t.me/SH_OTT'),
                                              InlineKeyboardButton("Movie Channel", url='https://t.me/SH_Telugu_All_Movies')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/1o9bdpwd')]
                                           ]))
             except:
                 return
         else:
-            await client.send_message(id, "Congrats! You Won 100MB Upload limit")
+            await client.send_message(id, "Congrats! You Won 1000MB Upload limit")
             _user_ = find_one(int(id))
             limit = _user_["uploadlimit"]
             new_limit = limit + 104857600
@@ -85,7 +85,7 @@ async def start(client, message):
                                          [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/SH_OTT")],
                                           [InlineKeyboardButton("Support Channel", url='https://t.me/SH_OTT'),
                                           InlineKeyboardButton("Movie Channel", url='https://t.me/SH_Telugu_All_Movies')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/1o9bdpwd')]
                                           ]))
     
 
@@ -126,7 +126,7 @@ async def send_doc(client, message):
                                                                      [InlineKeyboardButton("🦋 Contact RaiseStar 🦋", url='https://telegram.me/RaiseStar')],
                                                                      [InlineKeyboardButton("🦋 Update Channel  ", url='https://t.me/SH_OTT'),
                                                                      InlineKeyboardButton("  Support Channel 🦋", url='https://t.me/SH_OTT')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/1o9bdpwd')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
